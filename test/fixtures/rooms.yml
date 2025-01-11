@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  room_number: 1
+  capacity: 1
+  price: 9.99
+  hostel_id: 1
+
+two:
+  room_number: 1
+  capacity: 1
+  price: 9.99
+  hostel_id: 1
