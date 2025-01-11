@@ -6,3 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+
+Hostel.create!(hostel_name: Faker::Company.name, address: Faker::Address.city , pincode: Faker::Address.zip_code, contact:number: Faker::Number.leading_zero_number(digits: 10) , rating: Faker::Number.between(from: 1, to: 5) )
+
+Room.create!(room_number: Faker::Number.within(range: 1..10), capacity: Faker::Number.within(range: 1..3), price: Faker::Number.decimal(l_digits: 3, r_digits: 2))
