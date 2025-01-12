@@ -36,6 +36,8 @@ gem 'devise-jwt'
 gem 'jsonapi-serializer'
 gem 'jwt'
 gem 'faker'
+gem 'byebug'
+gem 'bcrypt'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
